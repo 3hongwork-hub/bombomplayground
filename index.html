@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Optimization -->
+    <title>봄봄 놀이터: 쉼표, 춘천 | 쉬었음 청년들을 위한 마음 놀이터</title>
+    <meta name="description" content="강원도 춘천의 쉬었음 청년들을 위한 감성 치유 및 소통 공간, 봄봄 놀이터입니다. 마음 자가진단, 춘천 힐링 스팟 안내, 오늘의 마음 카드 및 익명 소통방을 만나보세요." />
+    <meta name="keywords" content="춘천, 쉬었음 청년, 청년도전지원사업, 춘천 청년, 번아웃, 고립청년, 쉼터, 힐링스팟, 봄봄놀이터" />
+    <meta property="og:title" content="봄봄 놀이터: 쉼표, 춘천" />
+    <meta property="og:description" content="잠시 쉬어가도 괜찮아요. 춘천 청년들을 위한 따뜻한 치유와 연결의 공간." />
+    <meta property="og:type" content="website" />
+    
+    <!-- Typography & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <!-- App Root -->
+    <div id="app">
+      <!-- Top Accent Bar -->
+      <div class="accent-bar"></div>
+
+      <!-- Navigation Header -->
+      <header class="app-header">
+        <div class="header-container">
+          <div class="logo-wrapper">
+            <h1 class="logo-text" id="app-logo">
+              <span class="emoji">🌸</span>봄봄<span class="sub-logo">놀이터</span>
+            </h1>
+          </div>
+          <nav class="main-nav" id="main-nav">
+            <ul>
+              <li><button class="nav-btn active" id="nav-home" data-view="home"><i class="fa-solid fa-house-chimney"></i> 홈</button></li>
+              <li><button class="nav-btn" id="nav-quiz" data-view="quiz"><i class="fa-solid fa-heart-pulse"></i> 마음 온도 진단</button></li>
+              <li><button class="nav-btn" id="nav-spots" data-view="spots"><i class="fa-solid fa-compass"></i> 쉼표 스팟</button></li>
+              <li><button class="nav-btn" id="nav-community" data-view="community"><i class="fa-solid fa-comments"></i> 소통 놀이터</button></li>
+              <li><button class="nav-btn" id="nav-support" data-view="support"><i class="fa-solid fa-hand-holding-heart"></i> 청년 지원 정보</button></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Main Contents Container -->
+      <main id="main-content" class="app-main">
+        <!-- Views will be dynamically injected here by main.js -->
+      </main>
+
+      <!-- Global Interactive Modals -->
+      <div id="global-modal" class="modal-overlay hidden">
+        <div class="modal-content" id="modal-content-area">
+          <!-- Modal content injected dynamically -->
+        </div>
+      </div>
+
+      <!-- Toast Notification -->
+      <div id="toast" class="toast hidden"></div>
+
+      <!-- App Footer -->
+      <footer class="app-footer">
+        <div class="footer-container">
+          <div class="footer-brand">
+            <h3>🌸 봄봄 놀이터</h3>
+            <p>춘천시 쉬었음 청년들을 위한 마음 충전 및 로컬 네트워킹 플랫폼</p>
+          </div>
+          <div class="footer-links">
+            <div class="link-group">
+              <h4>지자체 지원 바로가기</h4>
+              <ul>
+                <li><a href="https://www.work.go.kr/youngChallenge/index.do" target="_blank" rel="noopener noreferrer" id="footer-link-work24"><i class="fa-solid fa-external-link"></i> 고용24 청년도전지원</a></li>
+                <li><a href="http://www.ccreborn.or.kr" target="_blank" rel="noopener noreferrer" id="footer-link-reborn"><i class="fa-solid fa-external-link"></i> 희망리본 춘천센터</a></li>
+              </ul>
+            </div>
+            <div class="link-group">
+              <h4>긴급 마음 상담</h4>
+              <ul>
+                <li><a href="tel:109" id="footer-link-call109"><i class="fa-solid fa-phone"></i> 자살예방 상담전화 (국번없이 109)</a></li>
+                <li><a href="tel:1393" id="footer-link-call1393"><i class="fa-solid fa-phone"></i> 정신건강 상담전화 (1577-0199)</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 봄봄 놀이터: 쉼표, 춘천. 잠시 쉬어가도 당신의 봄은 늘 따뜻합니다.</p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Application Script -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
