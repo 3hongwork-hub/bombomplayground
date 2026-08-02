@@ -1226,7 +1226,7 @@ body {
 .tarot-section-box {
   background-color: var(--color-surface-solid);
   border-radius: var(--border-radius-lg);
-  padding: 30px;
+  padding: 30px 20px;
   border: 1px solid var(--color-border);
   box-shadow: 0 4px 15px var(--color-shadow);
   text-align: center;
@@ -1234,14 +1234,15 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 480px;
+  min-height: 540px;
 }
 
 .tarot-card-wrap {
-  width: 200px;
-  height: 300px;
+  width: 320px;
+  max-width: 100%;
+  height: 430px;
   perspective: 1000px;
-  margin: 30px 0;
+  margin: 24px 0;
   cursor: pointer;
 }
 
@@ -1262,6 +1263,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
+  box-sizing: border-box;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-radius: var(--border-radius-md);
@@ -1269,7 +1271,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   border: 2px solid var(--color-border);
 }
 
@@ -1277,6 +1279,7 @@ body {
   background: linear-gradient(135deg, #2c3545 0%, #1e2430 100%);
   color: var(--color-accent);
   border-color: var(--color-accent);
+  justify-content: center;
 }
 
 .tarot-card-front-pattern {
@@ -1292,14 +1295,14 @@ body {
 }
 
 .tarot-card-front-pattern i {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   animation: float 4s infinite ease-in-out;
 }
 
 .tarot-card-front-pattern span {
   font-family: var(--font-title);
   font-weight: 300;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -1307,27 +1310,42 @@ body {
 .tarot-card-back {
   background: var(--color-surface-solid);
   transform: rotateY(180deg);
-  padding: 20px;
+  padding: 24px 20px;
   text-align: center;
   color: var(--color-dark);
+  overflow-y: auto;
 }
 
 .tarot-card-back i.card-illustration {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: var(--color-primary);
-  margin-bottom: 20px;
+  margin-top: 4px;
+  margin-bottom: 12px;
 }
 
 .tarot-card-title {
   font-size: 1.25rem;
   font-weight: 700;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   color: var(--color-secondary);
 }
 
 .tarot-card-msg {
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   color: var(--color-text-sub);
+  line-height: 1.6;
+  word-break: keep-all;
+  margin-bottom: 12px;
+}
+
+.tarot-card-tip {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: auto;
+  font-size: 0.83rem;
+  border-top: 1px dashed var(--color-border);
+  padding-top: 12px;
+  color: var(--color-secondary);
   line-height: 1.5;
   word-break: keep-all;
 }

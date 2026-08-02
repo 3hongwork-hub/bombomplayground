@@ -60,7 +60,7 @@ export function renderTarotSection(container) {
             <i class="${selectedCard.icon} card-illustration"></i>
             <h4 class="tarot-card-title">${selectedCard.title}</h4>
             <p class="tarot-card-msg">"${selectedCard.message}"</p>
-            <div style="margin-top: 15px; font-size: 0.8rem; border-top: 1px dashed var(--color-border); padding-top: 12px; color: var(--color-secondary);">
+            <div class="tarot-card-tip">
               <strong>💡 오늘의 춘천 힐링 처방:</strong><br>
               ${selectedCard.tip}
             </div>
