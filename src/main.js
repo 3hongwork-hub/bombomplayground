@@ -42,11 +42,11 @@ export function navigateTo(viewName) {
 
   // SEO: Update page title dynamically
   const titles = {
-    home: "봄봄 놀이터: 쉼표, 춘천 | 쉬었음 청년들을 위한 마음 놀이터",
-    quiz: "마음 온도 진단 | 봄봄 놀이터",
-    spots: "쉼표 스팟 | 봄봄 놀이터",
-    community: "소통 놀이터 | 봄봄 놀이터",
-    support: "청년 지원 정보 | 봄봄 놀이터"
+    home: "봄봄 놀이터 - 춘천 청년 마음 대피소 | 당신의 봄은 늘 따뜻합니다",
+    quiz: "마음 온도 진단 | 춘천 청년 마음 대피소",
+    spots: "의암호 쉼표 스팟 | 춘천 청년 마음 대피소",
+    community: "소통 놀이터 | 춘천 청년 마음 대피소",
+    support: "청년 지원 정보 | 춘천 청년 마음 대피소"
   };
   document.title = titles[viewName] || "봄봄 놀이터";
 

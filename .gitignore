@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Other workspace sub-projects
+ggtrend-top100/
+gitblog-agent/
+hermes/
+twosoul_aiagent/
+vibecode_launch/
