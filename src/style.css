@@ -1355,6 +1355,18 @@ body {
   animation: fadeIn var(--transition-normal);
 }
 
+.tarot-notice-msg {
+  font-size: 0.88rem;
+  color: var(--color-primary);
+  font-weight: 600;
+  background-color: var(--color-primary-light);
+  padding: 6px 14px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 4px;
+  animation: fadeIn var(--transition-normal);
+}
+
 /* ==========================================================================
    GLOBAL MODALS & UI COMPONENT STYLINGS
    ========================================================================== */

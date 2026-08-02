@@ -76,7 +76,8 @@ export function renderTarotSection(container, previousIndex = -1) {
     <div class="tarot-section-box">
       <div class="section-title-wrap" style="flex-direction: column; gap: 8px;">
         <h3 class="section-title">🌸 오늘의 마음 힐링 카드</h3>
-        <p class="section-desc">지친 마음을 어루만져 줄 위로의 한 마디. 카드를 선택해 보세요.</p>
+        <p class="section-desc" style="margin-bottom: 4px;">지친 마음을 어루만져 줄 위로의 한 마디. 카드를 선택해 보세요.</p>
+        <p class="tarot-notice-msg hidden" id="tarot-notice-msg">✨ 마음 카드가 펼쳐졌습니다. 잠시 음미해 보세요.</p>
       </div>
 
       <div class="tarot-card-wrap" id="tarot-card-trigger">
@@ -115,12 +116,13 @@ export function renderTarotSection(container, previousIndex = -1) {
   const cardWrap = container.querySelector("#tarot-card-trigger");
   const actionsArea = container.querySelector("#tarot-actions-area");
   const redrawBtn = container.querySelector("#btn-tarot-redraw");
+  const noticeMsg = container.querySelector("#tarot-notice-msg");
 
   cardWrap.addEventListener("click", () => {
     if (!cardWrap.classList.contains("flipped")) {
       cardWrap.classList.add("flipped");
       actionsArea.classList.remove("hidden");
-      showToast(`'${selectedCard.title}' 카드가 펼쳐졌습니다.`);
+      noticeMsg.classList.remove("hidden");
     }
   });
 
@@ -129,6 +131,7 @@ export function renderTarotSection(container, previousIndex = -1) {
     // 카드가 다시 뒤집히는 애니메이션 수행
     cardWrap.classList.remove("flipped");
     actionsArea.classList.add("hidden");
+    noticeMsg.classList.add("hidden");
     
     // 애니메이션 후 100% 새로운 카드로 다시 렌더링
     setTimeout(() => {
