@@ -5,6 +5,7 @@
 [![Vite](https://img.shields.io/badge/Vite-8.0.12-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![CSS3](https://img.shields.io/badge/CSS3-Vanilla%20Design%20System-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--16-orange?style=for-the-badge&logo=calendar)](https://github.com/3hongwork-hub/bombomplayground)
 [![License](https://img.shields.io/badge/License-MIT-green.style=for-the-badge)](./LICENSE)
 
 ---

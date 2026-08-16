@@ -24,8 +24,10 @@ dist-ssr
 *.sw?
 
 # Other workspace sub-projects
+3hongMacro-Pulse/
 ggtrend-top100/
 gitblog-agent/
+github_trend/
 hermes/
 twosoul_aiagent/
 vibecode_launch/
