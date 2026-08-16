@@ -1,6 +1,9 @@
 # 🌸 봄봄놀이터 (Bombom Playground)
 > **춘천 청년 마음 대피소** | *"잠시 쉬어가도, 당신의 봄은 늘 따뜻합니다."*
 
+📝 **[공식 블로그 바로가기 (GitBlog Agent)](https://3hongwork-hub.github.io/gitblog-agent/)** | 🌐 **[봄봄놀이터 웹 서비스 바로가기](https://3hongwork-hub.github.io/bombomplayground/)**
+
+[![Blog](https://img.shields.io/badge/Blog-GitBlog%20Agent-FF5722?style=for-the-badge&logo=rss&logoColor=white)](https://3hongwork-hub.github.io/gitblog-agent/)
 [![Repository](https://img.shields.io/badge/GitHub-3hongwork--hub%2Fbombomplayground-pink?style=for-the-badge&logo=github)](https://github.com/3hongwork-hub/bombomplayground)
 [![Vite](https://img.shields.io/badge/Vite-8.0.12-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
